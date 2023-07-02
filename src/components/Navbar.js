@@ -31,9 +31,7 @@ const Navbar = () => {
             </ul>
 
             {/* --nav button -- */}
-            <button className='p-3 px-6 py-1.5 text-white bg-brightRed rounded-full hover:bg-brightRedLight'>
-               Get Started
-            </button>
+            <button>Get Started</button>
          </div>
       </nav>
    );
