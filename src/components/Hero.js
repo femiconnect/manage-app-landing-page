@@ -18,7 +18,7 @@ const Hero = () => {
                </p>
 
                <div className='flex justify-center md:justify-start'>
-                  <button>Get Started</button>
+                  <button className='btn'>Get Started</button>
                </div>
             </div>
 
