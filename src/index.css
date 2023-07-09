@@ -10,6 +10,6 @@
    }
 
    .btn {
-      @apply p-3 px-6 py-1.5 text-white font-semibold bg-brightRed rounded-full hover:bg-brightRedLight;
+      @apply p-3 px-6 py-1.5 text-white font-semibold bg-brightRed rounded-full hover:bg-brightRedLight shadow-md shadow-brightRedLight;
    }
 }
