@@ -56,7 +56,7 @@ const Testimonials = () => {
 
             {/* -- CTA button -- */}
             <div className='flex justify-center mt-14'>
-               <button>Get Started</button>
+               <button className='btn'>Get Started</button>
             </div>
          </div>
       </section>
