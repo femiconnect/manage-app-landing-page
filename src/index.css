@@ -12,4 +12,20 @@
    .btn {
       @apply p-3 px-6 py-1.5 text-white font-semibold bg-brightRed rounded-full hover:bg-brightRedLight shadow-md shadow-brightRedLight;
    }
+
+   /* .hamburger {
+      @apply relative w-6 h-6 transition-all cursor-pointer;
+   }
+
+   .hamburger-top {
+      @apply absolute top-0 left-0 w-6 h-[2px] bg-gray-900;
+   }
+
+   .hamburger-middle {
+      @apply absolute top-0 left-0 w-6 h-[2px] bg-gray-900 translate-y-[7px];
+   }
+
+   .hamburger-bottom {
+      @apply absolute top-0 left-0 w-6 h-[2px] bg-gray-900 translate-y-[14px];
+   } */
 }
