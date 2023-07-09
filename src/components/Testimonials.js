@@ -8,7 +8,7 @@ const Testimonials = () => {
       <section id='testimonials'>
          <div className='container my-14 text-center'>
             {/* -- heading -- */}
-            <h2 className='text-4xl font-bold text-center text-veryDarkBlue tracking-tight md:text-5xl '>
+            <h2 className='text-4xl font-bold text-center text-veryDarkBlue tracking-tight md:text-4xl'>
                What our clients say about Manage
             </h2>
 

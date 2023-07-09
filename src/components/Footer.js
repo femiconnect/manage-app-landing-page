@@ -20,25 +20,25 @@ const Footer = () => {
             <div className='flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:items-start md:space-y-0'>
                {/* logo */}
                <div className='my-12 md:mt-0'>
-                  <img src={logoWhite} alt='' className='h-8' />
+                  <img src={logoWhite} alt='' className='h-6' />
                </div>
 
                {/* social links container */}
-               <div className='flex justify-center space-x-8'>
+               <div className='flex justify-center space-x-7 md:space-x-4'>
                   <a href='/'>
-                     <img src={facebook} alt='' className='h-8' />
+                     <img src={facebook} alt='' className='h-7 md:h-5' />
                   </a>
                   <a href='/'>
-                     <img src={youtube} alt='' className='h-8' />
+                     <img src={youtube} alt='' className='h-7 md:h-5' />
                   </a>
                   <a href='/'>
-                     <img src={twitter} alt='' className='h-8' />
+                     <img src={twitter} alt='' className='h-7 md:h-5' />
                   </a>
                   <a href='/'>
-                     <img src={pinterest} alt='' className='h-8' />
+                     <img src={pinterest} alt='' className='h-7 md:h-5' />
                   </a>
                   <a href='/'>
-                     <img src={instagram} alt='' className='h-8' />
+                     <img src={instagram} alt='' className='h-7 md:h-5' />
                   </a>
                </div>
             </div>
