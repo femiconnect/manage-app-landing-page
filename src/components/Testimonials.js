@@ -5,7 +5,7 @@ import testimonialImg3 from '../assets/images/avatar-shanai.png';
 
 const Testimonials = () => {
    return (
-      <section id='testimonials'>
+      <section id='testimonials' className='bg-transparent'>
          <div className='container my-14 text-center'>
             {/* -- heading -- */}
             <h2 className='text-4xl font-bold text-center text-veryDarkBlue tracking-tight md:text-4xl'>
@@ -41,7 +41,7 @@ const Testimonials = () => {
                </div>
 
                {/* -- Testimonial 3 -- */}
-               <div className='flex flex-col items-center  mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
+               <div className='flex flex-col items-center mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
                   <img src={testimonialImg3} alt='..' className='w-16 -mt-14' />
                   <h4 className='text-lg font-bold text-veryDarkBlue'>
                      Ali Bravo

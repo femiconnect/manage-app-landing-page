@@ -7,13 +7,15 @@ import pinterest from '../assets/images/icon-pinterest.svg';
 import instagram from '../assets/images/icon-instagram.svg';
 
 const Footer = () => {
+   const year = new Date().getFullYear();
+
    return (
       <footer className='bg-gray-800'>
          {/* -- flex container -- */}
          <div className='container flex flex-col-reverse justify-between py-10 space-y-8 md:flex-row  md:space-y-0'>
             {/* --rights reserved */}
             <div className='text-gray-400 text-sm text-center md:hidden'>
-               copyright 2023. All Rights Reserved
+               copyright {year}. All Rights Reserved
             </div>
 
             {/* -- logo and social links container -- */}
@@ -87,7 +89,7 @@ const Footer = () => {
                </form>
 
                <div className='hidden text-gray-400 text-sm md:block'>
-                  copyright 2023. All Rights Reserved
+                  copyright {year}. All Rights Reserved
                </div>
             </div>
          </div>
