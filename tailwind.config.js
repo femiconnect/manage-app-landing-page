@@ -32,6 +32,10 @@ module.exports = {
 
          backgroundImage: {
             capsule: "url('./assets/images/bg-tablet-pattern.svg')",
+            ctaBgLarge:
+               "url('./assets/images/bg-simplify-section-desktop.svg')",
+            ctaBgMobile:
+               "url('./assets/images/bg-simplify-section-mobile.svg')",
          },
       },
    },

@@ -2,7 +2,10 @@ import React from 'react';
 
 const Cta = () => {
    return (
-      <section id='cta' className='bg-brightRed'>
+      <section
+         id='cta'
+         className='bg-brightRed bg-ctaBgMobile bg-no-repeat bg-[length:20%] bg-[top_70%_left_0%] md:bg-ctaBgLarge md:bg-[length:90%] md:bg-[top_70%_left_0%]'
+      >
          {/* -- flex container -- */}
          <div className='container flex flex-col items-center py-12 space-y-12 md:flex-row md:justify-between md:space-y-0'>
             <h2 className='text-4xl text-center text-white font-bold tracking-tight leading-tight md:text-4xl md:max-w-xl md:text-left'>
