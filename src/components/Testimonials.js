@@ -2,6 +2,7 @@ import React from 'react';
 import testimonialImg1 from '../assets/images/avatar-anisha.png';
 import testimonialImg2 from '../assets/images/avatar-richard.png';
 import testimonialImg3 from '../assets/images/avatar-shanai.png';
+import Slider from './Slider';
 
 const Testimonials = () => {
    return (
@@ -13,7 +14,7 @@ const Testimonials = () => {
             </h2>
 
             {/* -- testimonial container -- */}
-            <div className='flex flex-col mt-20 md:flex-row md:space-x-6'>
+            <div className='hidden md:mt-20 md:flex md:flex-row md:space-x-6'>
                {/* -- Testimonial 1 -- */}
                <div className='flex flex-col items-center p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3'>
                   <img src={testimonialImg1} alt='..' className='w-16 -mt-14' />
@@ -28,7 +29,7 @@ const Testimonials = () => {
                </div>
 
                {/* -- Testimonial 2 -- */}
-               <div className='flex flex-col items-center mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
+               <div className='hidden md:flex flex-col items-center mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
                   <img src={testimonialImg2} alt='..' className='w-16 -mt-14' />
                   <h4 className='text-lg font-bold text-veryDarkBlue'>
                      Richard Watts
@@ -41,7 +42,7 @@ const Testimonials = () => {
                </div>
 
                {/* -- Testimonial 3 -- */}
-               <div className='flex flex-col items-center mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
+               <div className='hidden md:flex flex-col items-center mt-16 p-6 space-y-6 rounded-g bg-veryLightGray md:w-1/3 md:mt-0'>
                   <img src={testimonialImg3} alt='..' className='w-16 -mt-14' />
                   <h4 className='text-lg font-bold text-veryDarkBlue'>
                      Ali Bravo
@@ -52,6 +53,10 @@ const Testimonials = () => {
                      keeps everyone motivated."
                   </p>
                </div>
+            </div>
+
+            <div className='mt-20 md:hidden'>
+               <Slider />
             </div>
 
             {/* -- CTA button -- */}
