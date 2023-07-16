@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
 
             {/* -- menu links container -- */}
-            <div className='flex justify-around items-start space-x-32'>
+            <div className='flex justify-around items-start md:space-x-8 lg:space-x-16 xl:space-x-32'>
                <div className='flex flex-col space-y-3 text-white'>
                   <a href='/' className='hover:text-brightRed'>
                      Home
