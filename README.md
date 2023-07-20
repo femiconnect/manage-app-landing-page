@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Manage Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+![image](https://res.cloudinary.com/femiconnect/image/upload/v1689818474/manage-App/manage-screenshot_el8lyw.jpg)
 
-In the project directory, you can run:
+Check out the finished project [here](https://femiconnect.github.io/manage-app-landing-page/)
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project inspired by [Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## Table of Content
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  [Description](#description)
+-  [Dependencies](#dependencies)
+-  [Folder Structure](#folder-structure)
+-  [Screenshot](#screenshot)
+-  [Author Info](#author-info)
+-  [Support](#support)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[(Back to top)](#table-of-content)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is a react single page application landing page introducing a product for task management within a team. The project include the use of react hooks, react dom manipulation, reusable components, device responsiveness and tailwind css for styling.
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[(Back to top)](#table-of-content)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-  [npm](https://www.npmjs.com/) (Node's package manager)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-  [create-react-app](https://create-react-app.dev/) (for default react js project setup)
 
-## Learn More
+-  [tailwindcss](https://tailwindcss.com/)
+   (utility-first css framework for styling)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-  [react-icons](https://www.npmjs.com/package/react-icons) (for icons used in the project)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-  [gh-pages](https://www.npmjs.com/package/gh-pages) (for project deployment)
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Screenshot
 
-### Analyzing the Bundle Size
+[(Back to top)](#table-of-content)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://res.cloudinary.com/femiconnect/image/upload/v1689822159/manage-App/homescreen_qtq55i.gif)
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Author - **Femi Ologunwa**
 
-### Advanced Configuration
+[(Back to top)](#table-of-content)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-  [Profile](https://github.com/femiconnect 'Femi Ologunwa')
+-  [Email](mailto:ologunwafemi@gmail.com?subject=Hi% 'Hi!')
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Support
 
-### `npm run build` fails to minify
+[(Back to top)](#table-of-content)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, issues, and feature requests are welcome!
+Give a ⭐️ if you like this project!
